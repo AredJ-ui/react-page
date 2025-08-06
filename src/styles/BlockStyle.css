@@ -1,0 +1,110 @@
+/*Desktop*/
+@media (max-width:1440px) {
+.Container{
+    display: block;
+    margin: 20% 20% 0 20%;
+    border: 1px solid black;
+    padding: 10px;
+}
+.DesktopMessage{
+    display: block;
+    font-size: 4vw;
+    text-align: center;
+
+}
+.Title{
+    visibility: hidden;
+}
+.SubTitle{
+    visibility: hidden;
+}
+input{
+    visibility: hidden;
+}
+button{
+    visibility: hidden;
+}
+}
+/*Tablets*/
+@media (max-width:1024px) {
+    .Container{
+    display: block;
+    margin: 20% 20% 0 20%;
+    border: 1px solid black;
+    padding: 10px;
+}
+.DesktopMessage{
+    display: block;
+    font-size: 4vw;
+    text-align: center;
+
+}
+.Title{
+    visibility: hidden;
+}
+.SubTitle{
+    visibility: hidden;
+}
+input{
+    visibility: hidden;
+}
+button{
+    visibility: hidden;
+}
+}
+/*Cellphones*/
+@media (max-width:600px){
+body{
+    background-image: url(https://tse1.mm.bing.net/th/id/OIP.3e95gCFsbNn_Fv3vjFn6RAHaNK?w=1080&h=1920&rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+.Container{
+    display: block;
+    margin: 50% 20% 0 20%;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #D3B9DD70;
+}
+.DesktopMessage{
+    display: block;
+    font-size: 0vw;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.Title{
+    visibility: visible;
+    font-size: 5vw;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 6px 0;
+}
+.SubTitle{
+    visibility: visible;
+    font-size: 3.5vw;
+    display: block;
+    text-align: center;
+    margin: 0 0 6px 0;
+}
+input{
+    visibility: visible;
+    font-size: 4vw;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0 6px 0;
+    
+}
+button{
+    visibility: visible;
+    font-size: 5vw;
+    text-align: center;
+    width: 100%;
+    display: block;
+    background-color: #9266A4;
+    border: 1px solid black;
+}
+}

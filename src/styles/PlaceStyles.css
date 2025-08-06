@@ -1,0 +1,25 @@
+.Place-Cointainer{
+    margin-top: 30px;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+.img1{
+    height: 100px;
+}
+.Subtitle1{
+    margin: 10px;
+}
+.description-1{
+    margin-bottom:0;
+    display: block;
+    padding: 0 20px;
+}
+.Sub-Button-1{
+     background-color: #c3aa92;
+    color: #f2dbc9;
+    border: transparent;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 20px;
+}
